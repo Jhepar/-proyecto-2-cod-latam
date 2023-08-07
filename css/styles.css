@@ -64,6 +64,13 @@ body {
     line-height: 1.2;
 }
 
+body.modo-dark {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#7B113A;
+    color:#fbfbfb;
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -75,10 +82,63 @@ header {
     top: 0px;
     left: 0px;
     box-shadow: 0 3px 10px -5px  #504f50;
-    background-color: rgba(175, 89, 158, 0.3);
+    background-color: rgba(175, 89, 158, 0.3); 
 
 
 }
+
+
+#menu-hamb-btn {
+    border: 0;
+    outline:  0;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    
+}
+
+i#cierre-menu {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+/* estilos para el menu mobile */
+
+body.mobile-menu-active {
+    overflow: hidden;
+} 
+
+body.mobile-menu-active i#cierre-menu {
+    display: none;
+} 
+
+body.mobile-menu-active header {
+    height: 30%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    transition: height 0.3s;
+    
+} 
+
+body.mobile-menu-active nav {
+    display: block;
+    width: 100%;
+    height: 50%;
+           
+} 
+
+body.mobile-menu-active #menu-lista {
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   
+} 
 
 .menu-item {
     display: inline-block;
@@ -88,14 +148,25 @@ header {
     padding: 16px;
     border-radius: 200px;
     box-shadow: 0 3px 10px -5px  #504f50;
+  
 
 }
 
 .menu-item:hover {
     background-color: #fbfbfb;
-    color:inherit;
+    color:#0f0f0f;
     transition: background-color 0.3s;
     
+}
+
+#BtnModoDark {
+    border: 0;
+    outline:  0;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+  
 }
 
 #principio {
@@ -159,6 +230,13 @@ a.boton {
     
 }
 
+a.boton:hover {
+    background-color:  background-color: rgba(175, 89, 158, 0.3); ;
+    font-size: 26px;
+    color: #0f0f0f;
+    transition: background-color 0.3s;
+    
+}
 
 #Contacto {
     display: flex;
@@ -213,10 +291,39 @@ article {
 
 
 h1 {
-    font-size: 42px;
+    font-size: 48px;
     text-align: left;
     margin-left: 30px;
 }
+
+
+h2 {
+    font-size: 32px;
+    margin-left: 200px;
+}
+
+#menu-hamburguesa {
+    display: none;
+  
+}
+
+nav {
+    display: none;
+  }
+
+
+.menu-item {
+    display: inline-block;
+    justify-content: right;
+    width: 100px;
+    align-items: center;
+    padding: 16px;
+    border-radius: 200px;
+    box-shadow: 0 3px 10px -5px  #504f50;
+  
+
+}
+
 
 }
 

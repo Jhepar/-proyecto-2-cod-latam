@@ -8,27 +8,38 @@
     <title>Jhenny Parada</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 
-<body>
-    <header>
+<body class="mobile-menu-active">
+    <header>        
         <a href="#principio">
             <img src="img/logo-jhenny.jpg" alt="logojp" class="logojp">
         </a>
-        <button id="menu-btn">
-            <i class="bi bi-list" id="open-menu">  </i>
-            <i class="bi bi-x-square" id="close-menu">  </i>  
+        
+        <button id="menu-boton">
+            <i class="bi bi-list" id="abrir-menu"> </i>
+            <i class="bi bi-x-square" id="cierre-menu"> </i> 
         </button>
+       
         <nav>
             <ul>
                 <li class="menu-item active"> <a href="#principio">Inicio</a> </li>
                 <li class="menu-item"> <a href="#Contacto">Contacto</a> </li>
             </ul>
         </nav>
+
     </header>
 
     <main>
         <section id="principio">
+
+            <button id="btnModoDark">
+                <i class="bi bi-moon-fill"></i>
+            </button>
+            
+
             <figure> <img src="img/FotoJP.jpg" alt="FotoJP" width="400px" class="mifoto">
             
             </figure>            
