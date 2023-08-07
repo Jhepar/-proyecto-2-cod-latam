@@ -12,19 +12,24 @@
 
 </head>
 
-<body class="mobile-menu-active">
+<body class="modo-dark mobile-menu-active ">
     <header>        
         <a href="#principio">
             <img src="img/logo-jhenny.jpg" alt="logojp" class="logojp">
         </a>
+
+        <button id="btnModoDark">
+            <i class="bi bi-moon-fill" id="oscuro"></i>
+            <i class="bi bi-brightness-high" id="claro"></i>
+        </button>
         
-        <button id="menu-boton">
+        <button id="menu-btn">
             <i class="bi bi-list" id="abrir-menu"> </i>
             <i class="bi bi-x-square" id="cierre-menu"> </i> 
         </button>
        
         <nav>
-            <ul>
+            <ul id="menu-lista">
                 <li class="menu-item active"> <a href="#principio">Inicio</a> </li>
                 <li class="menu-item"> <a href="#Contacto">Contacto</a> </li>
             </ul>
@@ -35,10 +40,7 @@
     <main>
         <section id="principio">
 
-            <button id="btnModoDark">
-                <i class="bi bi-moon-fill"></i>
-            </button>
-            
+           
 
             <figure> <img src="img/FotoJP.jpg" alt="FotoJP" width="400px" class="mifoto">
             
@@ -47,11 +49,11 @@
                 <article>
                     <h1>Hola Soy Jhenny</h1>
                     <p class="parrafos">
-                        Estudié Tecnicatura en Informática. No la ejercí nunca,
-                        ya que siempre trabajé para el turismo y la hospitalidad.
-                        Actualmente me encuentro en el área del Facility Management,
-                        específicamente cómo Property Manager, en el cual me siento bien,
-                        pero quiero dedicarme a algo relacionado a la carrera que cursé.
+                        Estudié Tecnicatura en Informática. Sin embargo nunca la ejercí.
+                        Siempre trabajé para el turismo y la hospitalidad, en el cual he 
+                        tenido la dicha de encargarme de varias areas, las mismas siempre 
+                        tienen el objetivo de entregar un excelenete producto-servicio para 
+                        con la armonia de un buen trabajo en equipo.
                     </p>
              
 
@@ -61,16 +63,16 @@
                 </article>     
 
         </section>
-
+<br>
         <section id="Contacto">
-            <article class="Contacto">
+            <article id="parrafo-Contacto">
                 <h2>Hablemos!</h2>
                 <p class="parrafos">
-                    Hace unos días tome la decisión de volver a conectarme con la informática,
-                    estoy estudiando nuevamente de lo que me gradué, porque quiero ampliar
-                    mis conocimientos para entrar a trabajar en esta área. Realizar cursos,
-                    buscar de forma autodidacta el complemento y así estar más actualizada.
-                    Me gusta la idea de conseguir un empleo para trabajar de forma remota.
+                    He tomado la decisión de volver a conectarme con la informática,
+                    estoy haciendo algunos cursos y buscando de forma autodidacta el 
+                    complemento para estar más actualizada. Con el fin estar apta para
+                    entrar incursionar en el area. 
+              
                 </p>
             </article>
 

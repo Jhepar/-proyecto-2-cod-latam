@@ -2,7 +2,7 @@ const menuItem = document.querySelectorAll (".menu-item");
 
 
 
-const menuBtn = document.querySelector("#menu-boton");
+const menuBtn = document.querySelector("#menu-btn");
 
 menuBtn.addEventListener("click", function(){
     document.body.classList.toggle("mobile-menu-active")
@@ -18,13 +18,12 @@ menuItem.forEach(function(Item){
 });
 });
 
-/* Boton para camboar a modo oscuro */
+/* Boton para cambiar a modo oscuro */
 
-const cambioBtn = document.querySelector("#BtnModoDark");
+const cambioBtn = document.querySelector("#btnModoDark");
 
 cambioBtn.addEventListener("click", function(){
     document.body.classList.toggle("modo-dark");
-
 
 
 });
